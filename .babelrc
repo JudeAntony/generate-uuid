@@ -1,14 +1,8 @@
 {
   "presets": [
-    [
-      "es2015",
-      {
-        "modules": false
-      }
-    ]
+    ["env", {"modules": false}]
   ],
   "plugins": [
-    "transform-class-properties",
-    "external-helpers"
+    "transform-class-properties", "external-helpers"
   ]
 }
